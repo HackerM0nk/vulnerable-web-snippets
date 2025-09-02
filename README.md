@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Node OWASP Snippets — Vulnerable vs Fixed (Express/Node.js)
 
 **Purpose.** A hands-on lab to *learn by contrast*: for each OWASP Top-10 risk, we provide two runnable Node.js/Express snippets—
@@ -27,3 +28,6 @@ node snippets/A03-injection/xss/vuln.js
 
 # Fixed XSS example
 node snippets/A03-injection/xss/fix.js
+=======
+# distributed system built from scratch in node.js
+>>>>>>> 9b80aa9 (first commit)
