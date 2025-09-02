@@ -27,3 +27,25 @@ node snippets/A03-injection/xss/vuln.js
 
 # Fixed XSS example
 node snippets/A03-injection/xss/fix.js
+
+
+node-owasp-snippets/
+├─ package.json
+├─ README.md
+├─ src/
+│  ├─ templates/                # Handlebars/EJS text templates for code + README
+│  │  ├─ A01-bac/  {vuln.hbs, fix.hbs, readme.hbs}
+│  │  ├─ A02-crypto-failures/ ...
+│  │  ├─ A03-injection/ ...
+│  │  ├─ A05-misconfiguration/ ...
+│  │  └─ A10-ssrf/ ...
+│  ├─ generator/
+│  │  └─ generate.mjs           # CLI to render pairs from templates + metadata.json
+│  └─ utils/encoding.js         # shared safe helpers (HTML encoding, allowlists, etc.)
+├─ snippets/                    # materialized examples users can run
+│  ├─ A01-bac/ {vuln.js, fix.js, README.md}
+│  ├─ A03-injection/...
+│  └─ A10-ssrf/...
+└─ test/
+   ├─ payloads/                 # curl/postman payloads exercising each vuln
+   └─ smoke.test.mjs            # asserts that fixed versions resist the payloads
