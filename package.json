@@ -1,0 +1,26 @@
+{
+  "name": "vulnerable-web-snippets",
+  "version": "1.0.0",
+  "description": "A package that contains Vulnerable NodeJS snippets and how to fix them",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HackerM0nk/vulnerable-web-snippets.git"
+  },
+  "keywords": [
+    "owasp"
+  ],
+  "author": "Shivam V",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HackerM0nk/vulnerable-web-snippets/issues"
+  },
+  "homepage": "https://github.com/HackerM0nk/vulnerable-web-snippets#readme",
+  "dependencies": {
+    "escape-html": "^1.0.3",
+    "express": "^5.1.0"
+  }
+}
